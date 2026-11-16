@@ -42,7 +42,7 @@ Quando scrivi o riscrivi documentazione, applica queste regole alla prosa:
 11. Usa la formattazione solo dove porta struttura. Niente grassetto come enfasi, niente emoji, niente titolo sopra una o due frasi. Titoli con la sola iniziale maiuscola. Elenco verticale solo per tre o più elementi paralleli. Elenco numerato per i passi in ordine, anche se sono due.
 12. Avvertenze: prima il comando o la condizione, poi il rischio. "Non eseguire il comando in produzione. Il comando cancella le righe."
 
-Usa una sola forma di comando per documento: l'imperativo con "tu" per default. Se il testo sorgente usa l'infinito o il "Lei", mantieni quella forma. Usa l'ortografia corretta: "È" e non "E'", "perché", "un po'", "qual è". Usa un solo tipo di virgolette per documento. `references/sostituzioni.md` mappa le parole abusate su parole comuni. Per un messaggio di errore, un runbook, un rapporto su un incidente, note di rilascio, un messaggio di commit o un testo di interfaccia, leggi prima `references/casi-d-uso.md`.
+Usa una sola forma di comando per documento: l'imperativo con "tu" per default. Se il testo sorgente usa l'infinito o il "Lei", mantieni quella forma. Usa l'ortografia corretta: "È" e non "E'", "perché", "un po'", "qual è". Usa un solo tipo di virgolette per documento. `references/sostituzioni.md` mappa le parole abusate su parole comuni. Per un testo che non è documentazione (messaggio di errore, runbook, rapporto su un incidente, commit), leggi prima `references/casi-d-uso.md`.
 
 Prima (testo tipico da LLM):
 

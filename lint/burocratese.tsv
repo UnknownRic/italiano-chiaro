@@ -1,0 +1,26 @@
+# Burocratese. Le parole di altri controlli (qualora, laddove, effettuare, procedere a, si prega) non stanno qui.
+al fine di	per	errore
+allo scopo di	per	errore
+nell'ambito	in	errore
+a seguito d\w+	dopo	errore
+in data odierna	oggi	errore
+esplet\w+	svolgere	errore
+(?:pone|pongono|porre|post[oaie]) in essere	fare	errore
+inoltr(?:are|a|ano|ato|ata|ati|ate|i|iamo|erà)	inviare	errore
+perv(?:en|ien)\w+	arrivare	errore
+utilizz\w+	usare	errore
+ove	se, dove	errore
+risulta(?:no)? essere	è	errore
+(?:suddett|predett|sopracitat)[oaie]	(ripeti il nome)	errore
+entro e non oltre	entro	errore
+con la presente	(cancella)	errore
+in (?:fase|sede) di	durante	avviso
+# Anglicismi evitabili. "scheduler", "fix", "drop" restano termini tecnici.
+settar\w+|settat[oaie]	impostare	errore
+settagg\w+	impostazione, configurazione	errore
+schedula\w*	pianificare	errore
+fixa\w*	correggere	errore
+droppa\w*	eliminare	errore
+runna\w*	eseguire	errore
+killa\w*	fermare	errore
+checka\w*	verificare	errore

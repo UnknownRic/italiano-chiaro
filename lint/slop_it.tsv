@@ -1,0 +1,33 @@
+crucial[ei]	importante	errore
+fondamental[ei]	importante	errore
+robust[oaie]	(scrivi la proprietà misurabile)	errore
+esaustiv[oaie]	(scrivi che cosa copre)	errore
+innovativ[oaie]	nuovo	errore
+all'avanguardia	nuovo	errore
+rivoluzionari[oae]?	nuovo	errore
+sinergi[ae]	(cancella)	errore
+panorama	(cancella, o nomina le parti)	errore
+arazzo	(cancella)	errore
+immerg\w+	leggere	errore
+potenzi(?:are|a|ano|ato|ata|ati|ate|ando)	migliorare	errore
+valorizz\w+	migliorare	errore
+senza soluzione di continuità	(cancella)	errore
+senza sforzo	(cancella)	errore
+in modo semplice	(cancella)	errore
+semplicemente	(cancella)	errore
+un(?:a)? ver[oa] e propri[oa]	(cancella)	errore
+a 360 gradi	(cancella)	errore
+vale la pena (?:di )?notare	(cancella)	errore
+è importante (?:notare|sottolineare|ricordare)	(cancella, poi scrivi il fatto)	errore
+in conclusione	(cancella)	errore
+in sintesi	(cancella)	errore
+in definitiva	(cancella)	errore
+una (?:miriade|pletora) di	molti	errore
+sotto il cofano	internamente	errore
+dietro le quinte	internamente	errore
+approfond\w+	leggere	avviso
+potent[ei]	(scrivi il numero o la capacità)	avviso
+complet[oaie]	(cancella se è un vanto)	avviso
+esplor\w+	(cancella se è una metafora)	avviso
+sfrutt\w+	usare	avviso
+ottimizz\w+	(scrivi che cosa migliora e di quanto)	avviso
