@@ -1,0 +1,56 @@
+{
+  "name": "italiano-chiaro",
+  "displayName": "Italiano Chiaro",
+  "description": "Scrivi italiano chiaro, comprensibile a chi non è del settore, con la disciplina di ASD-STE100: frasi brevi, una parola per un significato, forma attiva, condizione prima del comando, termini definiti alla prima occorrenza.",
+  "version": "0.1.0",
+  "author": {
+    "name": "UnknownRic"
+  },
+  "homepage": "https://github.com/UnknownRic/ItalianoChiaro",
+  "repository": "https://github.com/UnknownRic/ItalianoChiaro",
+  "license": "MIT",
+  "keywords": [
+    "italian",
+    "plain-language",
+    "linguaggio-chiaro",
+    "technical-writing"
+  ],
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/italiano-chiaro-activate.js\"",
+            "timeout": 5,
+            "statusMessage": "Carico Italiano Chiaro..."
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/run-python.js\" \"${CLAUDE_PLUGIN_ROOT}/src/hooks/lint_hook.py\"",
+            "timeout": 10,
+            "statusMessage": "Italiano Chiaro: controllo il file..."
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/hooks/run-python.js\" \"${CLAUDE_PLUGIN_ROOT}/src/hooks/lint_hook.py\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}

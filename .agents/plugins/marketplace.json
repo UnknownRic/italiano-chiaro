@@ -1,0 +1,16 @@
+{
+  "name": "italiano-chiaro",
+  "interface": {
+    "displayName": "Italiano Chiaro"
+  },
+  "plugins": [
+    {
+      "name": "italiano-chiaro",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

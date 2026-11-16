@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Copia locale della repo originale e piano di lavoro
+_ref/
+PIANO-ItalianoChiaro.md

@@ -1,0 +1,24 @@
+{
+  "name": "italiano-chiaro",
+  "owner": {
+    "name": "UnknownRic",
+    "url": "https://github.com/UnknownRic"
+  },
+  "description": "Skill per scrivere italiano tecnico chiaro e senza ambiguità, con regole ispirate ad ASD-STE100.",
+  "plugins": [
+    {
+      "name": "italiano-chiaro",
+      "source": "./",
+      "displayName": "Italiano Chiaro",
+      "description": "Scrivi italiano chiaro, comprensibile a chi non è del settore, con la disciplina di ASD-STE100: frasi brevi, una parola per un significato, forma attiva, condizione prima del comando, termini definiti alla prima occorrenza.",
+      "version": "0.1.0",
+      "author": {
+        "name": "UnknownRic"
+      },
+      "homepage": "https://github.com/UnknownRic/ItalianoChiaro",
+      "repository": "https://github.com/UnknownRic/ItalianoChiaro",
+      "license": "MIT",
+      "keywords": ["italian", "plain-language", "linguaggio-chiaro", "technical-writing"]
+    }
+  ]
+}

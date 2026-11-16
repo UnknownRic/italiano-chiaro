@@ -1,0 +1,36 @@
+{
+  "name": "italiano-chiaro",
+  "version": "0.1.0",
+  "description": "Scrivi italiano chiaro, comprensibile a chi non è del settore, con la disciplina di ASD-STE100: frasi brevi, una parola per un significato, forma attiva, condizione prima del comando, termini definiti alla prima occorrenza.",
+  "author": {
+    "name": "UnknownRic"
+  },
+  "homepage": "https://github.com/UnknownRic/ItalianoChiaro",
+  "repository": "https://github.com/UnknownRic/ItalianoChiaro",
+  "license": "MIT",
+  "keywords": [
+    "italian",
+    "plain-language",
+    "linguaggio-chiaro",
+    "technical-writing"
+  ],
+  "skills": "./skills/",
+  "hooks": "./.codex-plugin/hooks.json",
+  "interface": {
+    "displayName": "Italiano Chiaro",
+    "shortDescription": "Scrivi testo tecnico chiaro in italiano.",
+    "longDescription": "Carica in automatico le regole di italiano chiaro per documentazione, procedure, messaggi di errore, runbook, note di rilascio e rapporti sugli incidenti.",
+    "developerName": "UnknownRic",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://github.com/UnknownRic/ItalianoChiaro",
+    "defaultPrompt": [
+      "Riscrivi questo testo tecnico in italiano chiaro.",
+      "Scrivi questa procedura con le regole di Italiano Chiaro.",
+      "Controlla le violazioni di Italiano Chiaro in questo documento."
+    ],
+    "brandColor": "#2563EB"
+  }
+}

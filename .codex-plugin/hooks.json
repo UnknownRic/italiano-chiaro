@@ -1,0 +1,19 @@
+{
+  "description": "Carica in automatico le regole di Italiano Chiaro in ogni sessione di Codex.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "^(startup|resume|clear|compact)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "[ -n \"${PLUGIN_ROOT}\" ] && node \"${PLUGIN_ROOT}/src/hooks/italiano-chiaro-activate.js\" || true",
+            "timeout": 5,
+            "statusMessage": "Carico Italiano Chiaro...",
+            "additionalContextLimit": 0
+          }
+        ]
+      }
+    ]
+  }
+}
