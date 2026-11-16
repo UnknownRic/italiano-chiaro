@@ -5,8 +5,8 @@
   "author": {
     "name": "UnknownRic"
   },
-  "homepage": "https://github.com/UnknownRic/ItalianoChiaro",
-  "repository": "https://github.com/UnknownRic/ItalianoChiaro",
+  "homepage": "https://github.com/UnknownRic/italiano-chiaro",
+  "repository": "https://github.com/UnknownRic/italiano-chiaro",
   "license": "MIT",
   "keywords": [
     "italian",
@@ -25,7 +25,7 @@
     "capabilities": [
       "Write"
     ],
-    "websiteURL": "https://github.com/UnknownRic/ItalianoChiaro",
+    "websiteURL": "https://github.com/UnknownRic/italiano-chiaro",
     "defaultPrompt": [
       "Riscrivi questo testo tecnico in italiano chiaro.",
       "Scrivi questa procedura con le regole di Italiano Chiaro.",
