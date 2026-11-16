@@ -22,7 +22,7 @@ Se l'hook non riesce a leggere il file del prompt, prova il percorso successivo.
 Altri due hook girano in Claude Code. Sono avvisi e non bloccano mai.
 
 - `PostToolUse` su `Write` e `Edit`: quando il file è Markdown, `lint_hook.py` lo passa a `lint/chiaro_lint.py` e mostra al modello gli errori con riga e testo.
-- `Stop`: lo stesso script legge l'ultima risposta e aggiunge un messaggio di sistema quando la risposta contiene una lineetta, un grassetto, una parola slop, un'apertura o una chiusura di cortesia.
+- `Stop`: lo stesso script legge l'ultima risposta e aggiunge un messaggio di sistema quando la risposta viola il registro. Le violazioni sono: lineetta, grassetto, parola slop, apertura di cortesia, chiusura di cortesia.
 
 I due controlli saltano il testo che non è italiano. Lo script conta alcune parole comuni dell'italiano: sotto il 6% delle parole, non segnala niente.
 

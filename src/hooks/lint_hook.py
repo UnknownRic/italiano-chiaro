@@ -104,7 +104,7 @@ def post_tool_use(event):
     detail = [h for h in lint.lint_detail(text, "descriptive") if h["level"] == "errore"]
     if not detail:
         return 0
-    lines = [f"italiano-chiaro: {target.name} ha {len(detail)} violazioni."]
+    lines = [f"italiano-chiaro, violazioni in {target.name}: {len(detail)}."]
     for h in detail[:MAX_HOOK_HITS]:
         lines.append(f"  riga {h['line']}, {h['category']}: {h['text']}")
     if len(detail) > MAX_HOOK_HITS:
